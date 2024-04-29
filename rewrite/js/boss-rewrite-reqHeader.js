@@ -1,7 +1,7 @@
 
 
 var modifiedHeaders = $request.headers;
-console.log('修改前的请求头',modifiedHeaders);
+console.log('修改前的请求头',JSON.parse(modifiedHeaders));
 
 // 修改请求头
 
